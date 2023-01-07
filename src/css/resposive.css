@@ -1,0 +1,169 @@
+
+@media(max-width: 768px) {
+    .footer-navegation {
+        display: block;
+        
+    }
+    
+    nav { /*Menu superior*/
+        display: none;
+    }
+    #banner { /*Imagem principal*/
+        background-position: 40%;
+        padding: 45px;
+        width: 100%;
+    }
+/*Video e Descrição*/
+    #trailler-container {
+        width: 100%;
+        height: 700px;
+        display: block;
+        flex-direction: column;
+    }
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .trailler {
+        width: 100%;
+    }
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .description {
+        width: 100%;
+    }
+    .botao {
+        width: 100%;
+        margin-top: 30px;
+        
+    }
+    /*Imagens*/
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 230px;
+        display: block;   
+    }
+    .logo1 { /*Logo Inferior*/
+        max-width: 200px;
+        margin-top: 50px;
+    }
+    /*span*/
+    span {
+        font-size: 10px;
+    }
+    li {
+        font-size: 15px;
+    }
+
+    /*Pagina de contatos*/
+    .img-form {
+        display: block;
+    }
+    .form {
+        width: 100%;
+    }
+
+    /*Galeria de Fotos*/
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+/*Comentários*/
+    .comentarios-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}
+
+
+@media(max-width: 1190px) {
+    .footer-navegation {
+        display: block;
+        
+    }
+    
+    nav { /*Menu superior*/
+        display: none;
+    }
+    #banner { /*Imagem principal*/
+        background-position: 40%;
+        padding: 45px;
+        width: 100%;
+    }
+    
+/*Video e Descrição*/
+    #trailler-container {
+        width: 100%;
+        height: 700px;
+        display: block;
+        flex-direction: column;
+    }
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .trailler {
+        width: 100%;
+    }
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .description {
+        width: 100%;
+    }
+    .botao {
+        width: 100%;
+        margin-top: 30px;
+        
+    }
+    /*Imagens*/
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 230px;
+        display: block;   
+    }
+    .logo1 { /*Logo Inferior*/
+        max-width: 200px;
+        margin-top: 50px;
+    }
+    /*span*/
+    span {
+        font-size: 10px;
+    }
+    li {
+        font-size: 15px;
+    }
+
+    /*Pagina de contatos*/
+    .img-form {
+        display: block;
+    }
+    .form {
+        width: 100%;
+    }
+
+    /*Galeria de Fotos*/
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+/*Comentários*/
+    .comentarios-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        
+    }
+}
+
+

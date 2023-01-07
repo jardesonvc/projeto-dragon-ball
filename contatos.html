@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+
+<!--Favicon-->
+    <link rel="shortcut icon" href="src/imagens/logo.dbz.png" type="image/x-icon">
+<!--Link CSS-->
+    <link rel="stylesheet" href="src/css/contatos.css">
+    <link rel="stylesheet" href="src/css/resposive.css">
+<!--Font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Seymour+One&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Cabeçalho-->
+    <div class="cabecalho">
+        <!--logo superior esquerdo-->
+        <img id="logo" src="src/imagens/logo.dbz.png" alt="Logo Dragon Ball Z">
+        <!--Menu-->
+        <nav>
+            <ul>
+                <a href="projeto1.html">
+                    <li>Home</li>
+                </a>
+                <a href="contatos.html">
+                    <li>Contatos</li>
+                </a>
+                <a href="fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Banner-->
+    <div class="img-form">
+    <div>
+        <img id="banner" src="src/imagens/goku-vegeta.png" alt="Banner">
+    </div>
+    
+    <form class="form" action="receber-dados">
+        <h2>Preencha os dados abaixo e nos envie uma mensagem com seu feedback.</h2>
+        <label style="display: block;" for="nome">Seu Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label style="display: block;" for="email">Seu Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Digite um email válido">
+
+        <label style="display: block;" for="telefone">Celular com DDD:</label>
+        <input type="tel" name="telefone" id="telefone" required pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="11 99999-9999">
+
+        <label style="display: block;" for="radio">Deseja receber atualizações sobre lançamentos?</label>
+        <label for="sim">Sim</label>
+        <input type="radio" name="sexo" id="sexo-m" value="Masculino">
+        <label for="nao">Não</label>
+        <input type="radio" name="sexo" id="sex0-f" value="Feminino">
+
+        <label style="display: block;" for="msg">Mensagem:</label>
+        <textarea style="display: block;" name="msg" id="msg" cols="30" rows="10"></textarea><br>
+
+        <input class="button" type="button" value="Enviar">
+    </form>
+    </div>
+    
+
+    <!--Rodapé-->
+    <footer>
+        <img class="logo1" style="object-fit: contain; width: 500px;" src="src/imagens/logo.dbz.png" alt="Logo DBZ">
+
+        <span>Todos os direitos reservados ©</span><br>
+        <span id="span">Jardeson Carvalho</span>
+
+        <!--responsive para celular-->
+        <nav class="footer-navegation">
+            <ul class="footer-list">
+                <a href="projeto1.html">
+                    <li>Home</li>
+                </a>
+                <a href="contatos.html">
+                    <li>Contatos</li>
+                </a>
+                <a href="fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
